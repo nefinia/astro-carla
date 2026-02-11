@@ -1,0 +1,31 @@
+{
+  "dataset": "RGguy_icubed_Lya",
+  "run_id": "r1-7_sum__w1-1.5_sum__snr3__z0-110__min500",
+  "params": {
+    "r0": 1,
+    "r1": 7,
+    "rstep": 1,
+    "roperation": "sum",
+    "w0": 1,
+    "w1": 1.5,
+    "wstep": 1,
+    "woperation": "sum",
+    "min_group_size": 500,
+    "snr_threshold": 3,
+    "zmin": 0,
+    "zmax": 110,
+    "extraname": ""
+  },
+  "inputs": {
+    "cube": "KCWI/inputs/RGguy_icubed_Lya.fits",
+    "cube_md5": "9ba6e09a302fdf39e7758a2c1c3aa968",
+    "var": "KCWI/inputs/RGguy_icubed_Lya.var.fits",
+    "var_md5": "5f6133df55377d5985910c13369ff29f"
+  },
+  "performance": {
+    "work_dtype": "float32",
+    "spatial_smoothing": "separable gaussian (convolve1d)",
+    "spectral_smoothing": "convolve1d axis=0"
+  },
+  "timestamp_utc": "2026-02-11T14:14:11.745440Z"
+}

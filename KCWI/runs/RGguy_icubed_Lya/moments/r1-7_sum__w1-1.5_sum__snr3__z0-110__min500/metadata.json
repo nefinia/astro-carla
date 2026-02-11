@@ -1,0 +1,28 @@
+{
+  "dataset": "RGguy_icubed_Lya",
+  "run_id": "r1-7_sum__w1-1.5_sum__snr3__z0-110__min500",
+  "params": {
+    "r0": 1,
+    "r1": 7,
+    "rstep": 1,
+    "roperation": "sum",
+    "w0": 1,
+    "w1": 1.5,
+    "wstep": 1,
+    "woperation": "sum",
+    "min_group_size": 500,
+    "snr_threshold": 3,
+    "zmin": 0,
+    "zmax": 110,
+    "extraname": ""
+  },
+  "aks_folder": "KCWI/runs/RGguy_icubed_Lya/aks/r1-7_sum__w1-1.5_sum__snr3__z0-110__min500",
+  "moment_method": {
+    "core": "vectorized flux moments (M0/M1/M2)",
+    "gaussian_refinement": true,
+    "fit_snr_threshold": 8.0,
+    "pix2angstrom": 1.0,
+    "pix2asec": 0.291456
+  },
+  "timestamp_utc": "2026-02-11T15:30:22.845995Z"
+}
